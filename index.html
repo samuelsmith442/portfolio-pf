@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Paula Fenner | React frontend developer
+  </title>
+
+  <meta name="description" content="Paula Fenner - Frontend Developer based in Berlin, DE. Specialized in creating intuitive, user-friendly websites with a focus on impactful design.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Paula Fenner - Frontend Developer - HTML, CSS, Javascript, React, UX/UI design, responsive, accessibility  ." />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link" aria-label="Navigate to Work section">Work</a></li>
+          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link" aria-label="Navigate to About section">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link" aria-label="Navigate to Contact section">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header__text-box row">
+      <div class="header__text">
+        <img class="logo" src="./images/pf-logo.svg" alt="Paula Fenner - frontend developer written in big letters.">
+        <p class="heading-primary">driven to create a positive impact through technology</p>
+        <a href="#contact" class="btn btn--accent" aria-label="Navigate to Get in touch section">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Ushido Restaurant</h3>
+              <p>
+                Ordering made easy: A digital menu and ordering system that simplifies the way you order food. Browse, select, and place your order with ease.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://ushido-japanese-restaurant.netlify.app/" target="_blank" class="link__text" aria-label="Navigate to site address">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/paulaFenner/restaurant-ordering-app" target="_blank" aria-label="Navigate to codebase">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/ushido.png" class="work__image" alt="Project 1" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Color Generator</h3>
+              <p>
+                Color Scream: A simple and intuitive color palette generator that lets you create custom color schemes using different modes.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://color-scream.netlify.app/" target="_blank" class="link__text" aria-label="Navigate to site address">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/paulaFenner/color-scheme" target="_blank" aria-label="Navigate to codebase">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/color-scheme.png" class="work__image" alt="Project 2" loading="lazy"/>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Wander Journal</h3>
+              <p>
+                My life in places: A collection of destinations I've lived and experienced, with links to discover more about each location.
+              </p>
+              <ul class="work__list">
+                <li>React</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://wanderlust-life.netlify.app/" target="_blank" class="link__text" aria-label="Navigate to site address">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/paulaFenner/travel-journal" target="_blank" aria-label="Navigate to codebase">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/wander-journal.png" class="work__image" alt="Project 3" loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            As a frontend developer with a design background, I'm passionate about crafting digital experiences that are both beautiful and user-friendly. I'm a big believer that technology can be a powerful tool for good, and I'm committed to using my skills to create inclusive, accessible, and equitable digital products that make a positive impact.</p>
+            <!-- Provide a link to your resume -->
+            <a href="./docs/paula-fenner-resume.pdf" target="_blank" class="btn" aria-label="Open resume file">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/paula-photo.png" alt="Image of a white woman dressing a black sleeveless tshirt, looking to her right side. " />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Thanks for checking out my portfolio! 💛 If you're looking for a frontend developer to join your team, I'd love to hear from you. Let's discuss how I can help bring your project to life. Feel free to reach out via email to start a conversation.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:fenner.paula@gmail.com" class="btn" aria-label="Navigate to send and email">fenner.paula@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://mastodon.social/@paulaf" title="Link to Mastodon Profile"target="_blank" rel="noopener noreferrer" aria-label="Navigate to Mastodon profile">
+            <img src="./images/mastodon.svg" class="footer__social-image" alt="Mastodon">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/paulaFenner" title="Link to Github Profile"target="_blank" rel="noopener noreferrer" aria-label="Navigate to GitHub profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+         <!-- Update or remove -->
+        <li class="footer__social-link-item">
+          <a href="#" title="Link to Codepen Profile"target="_blank" rel="noopener noreferrer" aria-label="Navigate to Codepen profile">
+            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/paula-fenner-6b926043/"target="_blank" rel="noopener noreferrer" aria-label="Navigate to Linkedin profile">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      
+      <p>
+        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link" aria-label="Navigate to page designer website">Nisar</a>.
+      </p>
+      
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+      
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top" aria-label="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
