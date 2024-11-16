@@ -218,6 +218,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .btn:hover {
   color: var(--black);
+  background: var(--accent);
 }
 
 .btn:focus {
